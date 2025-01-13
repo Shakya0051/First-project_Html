@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Example</title>
+    <style>
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden; 
+            border: 1px solid #9f0d0d;
+            padding: 10px;
+        }
+
+        .image {
+            float: right; 
+            margin-right: 15px;
+            width: 150px;
+            height: 150px;
+            border: 1px solid #430fd2;
+        }
+
+        .text {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="pexels-eberhardgross-1421903.jpg" alt="Example Image" class="image">
+        <div class="text">
+            <h2>Floating Elements</h2>
+            <p>
+                A serene hillside image captures the tranquility of nature, with rolling green slopes 
+                stretching under an open sky. The soft light of dawn or dusk bathes the landscape in 
+                warm hues, highlighting the contours of the terrain. Scattered wildflowers and 
+                the occasional tree add splashes of color, while winding paths invite exploration.
+                 The scene exudes a sense of peace, offering a perfect retreat for those seeking solitude or
+                  inspiration amidst nature's quiet beauty. 
+            </p>
+            <p>
+                This example demonstrates the use of the CSS `float` property. The image on the right
+                is floated, allowing the text to wrap around it. Floating is a traditional method for creating
+                layouts and wrapping content, although modern techniques like Flexbox and Grid are now more commonly used.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Example</title>
+</head>
+<body>
+  <h1 id="title">Hello, JavaScript!</h1>
+  <button id="changeText">Change Text</button>
+
+  <script>
+    document.getElementById("changeText").addEventListener("click", function() {
+      document.getElementById("title").innerHTML = "Change the Text!";
+    });
+  </script>
+</body>
+</html>

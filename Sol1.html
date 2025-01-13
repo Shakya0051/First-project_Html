@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        .image {
+            float: right; 
+            margin-right: 15px;
+            width: 150px;
+            height: 150px;
+            border: 1px solid #430fd2;
+        }
+        .block {
+            display: block;
+            background-color: lightblue;
+            margin: 10px 0;
+            padding: 10px;
+            text-align: center;
+        }
+        .inline {
+            display: inline;
+            background-color: lightgreen;
+            margin: 5px;
+            padding: 5px;
+        }
+        .inline-block {
+            display: inline-block;
+            background-color: lightcoral;
+            width: 100px;
+            height: 50px;
+            margin: 5px;
+            text-align: center;
+            line-height: 50px;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        .flex-item {
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            background-color: lightyellow;
+            padding: 10px;
+        }
+
+        .grid-item {
+            background-color: lightpink;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Display Property Example</h1>
+
+    
+    <div class="block">I am a block element</div>
+
+    
+    <span class="inline">Inline 1</span>
+    <span class="inline">Inline 2</span>
+    <span class="inline">Inline 3</span>
+
+    <div class="inline-block">Box 1</div>
+    <div class="inline-block">Box 2</div>
+    <div class="inline-block">Box 3</div>
+
+    <div class="flex-container">
+        <div class="flex-item">Flip</div>
+        <div class="flex-item">Rotate</div>
+        <div class="flex-item">Flex 3</div>
+    </div>
+
+    <div class="grid-container">
+        <img src="pexels-eberhardgross-1421903.jpg" alt="Example Image" class="image">
+        <img src="pexels-eberhardgross-1421903.jpg" alt="Example Image" class="image">
+        <img src="pexels-eberhardgross-1421903.jpg" alt="Example Image" class="image">
+        <img src="1.jpg" alt="Example Image" class="image">
+        <img src="1.jpg" alt="Example Image" class="image">
+        <img src="1.jpg" alt="Example Image" class="image">
+        
+        
+    </div>
+</body>
+</html>

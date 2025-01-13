@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Front Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: rgb(255, 255, 255);
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #ae1616;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: rgb(9, 16, 18);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #6c6b85;
+            height: 60vh;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+        }
+
+        .content {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .content h2 {
+            margin-bottom: 1rem;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Pixels</h1>
+</header>
+
+<nav>
+    <a href="#features">Features</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <div>
+        <h1>Discover Pixels</h1>
+        <p>Your ultimate solution for wallpapers,ringtones</p>
+        <button onclick="alert('Get Started!')">Get Started</button>
+    </div>
+</section>
+
+<section class="content" id="features">
+    <h2>Features</h2>
+    <p>Explore the amazing features of our app that make your life easier.</p>
+</section>
+
+<section class="content" id="about">
+    <h2>About Us</h2>
+    <p>Learn more about our journey and the team behind [App Name].</p>
+</section>
+
+<section class="content" id="contact">
+    <h2>Contact Us</h2>
+    <p>We would love to hear from you! Reach out to us at [email/contact info].</p>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2024 [App Name]. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

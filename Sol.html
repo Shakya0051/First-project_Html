@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property Example</title>
+    <style>
+        .block {
+            display: block;
+            background-color: lightblue;
+            margin-bottom: 10px;
+        }
+        .inline {
+            display: inline;
+            background-color: lightgreen;
+            padding: 5px;
+        }
+        .flex-container {
+            display: flex;
+            background-color: lightcoral;
+            gap: 10px;
+        }
+        .flex-item {
+            background-color: white;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">I am a block element</div>
+    <span class="inline">I am inline 1</span>
+    <span class="inline">I am inline 2</span>
+
+    <div class="flex-container">
+        <div class="flex-item">Flex Item 1</div>
+        <div class="flex-item">Flex Item 2</div>
+        <div class="flex-item">Flex Item 3</div>
+    </div>
+</body>
+</html>
